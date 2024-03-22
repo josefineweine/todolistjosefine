@@ -1,0 +1,22 @@
+# Install dependencies 
+$ npm install -g truffle@5.0.2
+$ npm install
+
+# Migrate 
+truffle migrate --reset
+
+# Run the app
+$ npm run dev
+
+## Testing
+```bash
+# Run Test 
+$ truffle test 
+```
+
+## Ganache Personal Blockchain 
+Local development blockchain used to mimic the behavior of a public blockchain. Allows for deploying smart contracts, develop applications, and run tests.
+
+## Metamask
+
+Google Chrome extension turning your browser into a blockchain browser. Metamask allows for managing our personal account when connecting to the blockchain, as well as manage ETH funds needed to pay for transactions. 
